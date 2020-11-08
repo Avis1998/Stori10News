@@ -1,0 +1,80 @@
+/* inner content
+   inner content left
+.content{
+    width:100%;
+    height: 2000px;
+}*/
+.left-section{
+    width: 25%;
+    height: 1000px;
+    float: left;    
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 100px;
+    
+}
+
+/* left section content's */ 
+.btn {
+    background-color:white;
+    height: 70px;
+    border: 2px green;
+    border-style: dotted;
+    border-radius: 3px;
+    color: rgb(6, 117, 24);
+    padding: 15px 97px;   
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px ;
+    margin-left: 5px;
+    cursor: pointer; 
+    width: 97%;
+
+  }
+
+  .icon{
+    position:absolute;
+    left:18px;
+    top:9px;
+    font-size:30px;
+  }
+  
+  .image2{
+      width: 100%;
+      height: 80px;
+      background-color: tomato;
+      float:left;
+      margin-top: 4px;
+    
+  }
+.card{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   
+}
+  .image3{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    float:left;
+  
+}
+
+.heading{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    float:left;
+  
+}
+.heading1{
+    width: 90%;
+    height: 70%;
+    overflow: hidden;
+    background-color:whitesmoke;
+    margin-top: 15px;
+}

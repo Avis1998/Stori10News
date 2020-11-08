@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    
+
+    
+}
+.main-body{
+    width: 100%;
+    height: 1000px;
+   
+}
+
+.header{
+    height: 100px; 
+    background-color: aqua;   
+    width: 100%;
+    position: fixed;
+    overflow: -moz-hidden-unscrollable;
+    z-index: 15;/* z index prevent overlay the content after header*/ /**/
+   
+}
+.logo{
+    background:#3cab7c;
+    width: 25%;
+    height: 100px;
+    overflow: hidden;
+   
+
+}
+
+#wrap {
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    position:relative;
+    
+}
+#wrap div {
+    position:relative;
+    height:100%;
+    float:left;
+}
+#one {
+    background:black;
+    width:calc(25% + 15px);
+}
+#one:after {
+    content:"";
+    position:absolute;
+    right:0;
+    border-right:40px solid #3cab7c;   
+    border-top:100px solid transparent;
+    
+}
+
+
+
+.ad{
+    background-color:blueviolet;
+    width: 75%;
+    height: 100px;
+}
+
+.image1{
+    height: 100px;
+    width: 30%;
+    margin-top: 0px;
+    
+}
+
+
+  
+.textcontent{
+    height: 100px;
+    width: 70%;
+}
+.date{
+    margin-left:40%;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
